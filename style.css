@@ -3,7 +3,67 @@
     margin: 0;
     box-sizing: border-box;
 }
+:root {
+    --primary-color: #C8F69B;
+    --secondary-color: #9C5700;
+    --primary_padding: 2rem;
+    --secondary_padding: .5rem;
+    --secondary_second_padding: .2rem;
+    --primary_font_size: 1.5rem;
+    --border-radius: .3rem;
+}
 body {
-    width: 100%;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Introductory page CSS */
+
+.site-view {
+    width: auto;
     height: 100%;
+    background: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: var(--primary_padding);
+    cursor: pointer;
+
+}
+.name-logo {
+    font-weight: bold;
+    font-size: var(--primary_font_size);
+    color: var(--secondary-color);
+    /* padding: var(--secondary_padding); */
+}
+
+.description {
+    padding: var(--secondary_padding);
+}
+#para-site-name {
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+.btns {
+    padding: var(--secondary_padding);
+}
+#btn-1 {
+    padding: var(--secondary_second_padding);
+    border: .1rem solid black;
+    border-radius: var(--border-radius);
+    background: var(--primary-color);
+    border: .15rem solid var(--secondary-color);
+    font-weight: bold;
+    cursor: pointer;
+}
+#btn-2 {
+    padding: var(--secondary_second_padding);
+    border: .1rem solid black;
+    border-radius: var(--border-radius);
+    border: .15rem solid var(--secondary-color);
+    background: var(--primary-color);
+    font-weight: bold;
+    cursor: pointer;
 }
