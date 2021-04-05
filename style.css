@@ -57,6 +57,7 @@ body {
     border: .15rem solid var(--secondary-color);
     font-weight: bold;
     cursor: pointer;
+    color: white;
 }
 #btn-2 {
     padding: var(--secondary_second_padding);
@@ -66,4 +67,5 @@ body {
     background: var(--primary-color);
     font-weight: bold;
     cursor: pointer;
+    color: white;
 }
